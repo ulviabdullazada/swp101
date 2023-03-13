@@ -1,0 +1,53 @@
+/* p, b, i{
+    color: palevioletred;
+} */
+/* #uni{
+    color: green;
+}
+#smg{
+    color: blue;
+}
+#dvl{
+    color: red;
+}
+span{
+    color: black;
+}
+.text-pink{
+    color:palevioletred;
+}
+.area{
+    width: 50%;
+    height: 200px;
+    background-color: cyan;
+}
+.item{
+    width: 70px;
+    background-color: black;
+}
+span{
+    color: olive;
+}
+.area span{
+    color: blue;
+}
+.area .item *{
+    color: orange;
+}
+p.intro{
+    background-color: red;
+} */
+/* span, p, div{
+    background-color: yellowgreen;
+} */
+div{
+    width: 45%;
+    display: inline-block;
+}
+.div1{
+    width: 15%;
+    background-color: red;
+}
+.div2{
+    background-color: green;
+}
