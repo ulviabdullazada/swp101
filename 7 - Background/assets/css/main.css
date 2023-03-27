@@ -1,0 +1,101 @@
+/* svg{
+    width: 50%;
+    fill: red;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 70%;
+    margin: 0 15%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+}
+.text-white{
+    color: #fff;
+}
+.text-light, .navbar ul li a:hover{
+    color: rgb(252, 171, 32) !important;
+}
+.logo{
+    font-size: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.slogan{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sub-slogan{
+    font-size: 30px;
+    font-style: italic;
+}
+.btn-light{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(252, 171, 32);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.my-50{
+    margin: 50px 0;
+}
+header{
+    height: 80vh; /*Viewport height*/
+    /* background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg); */
+    /* background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png);
+    background-position: center right; */
+    /* background-size: 100%; */
+    /* background-repeat: no; */
+    background-image:linear-gradient(to right,rgba(0,0,0,.5), rgba(0,0,0, .25)),  url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    height: 420px;
+    /* background-color: red; */
+}
+.card .image{
+    background-size: 100%;
+    background-position: center;
+    height: 320px;
+}
+.bg-white{
+    background-color: #fff;
+}
+.bg{
+    padding-top: 25%;
+    font-size: 70px;
+    height: 100%;
+    background-image: url(http://www.sdu.edu.az/userfiles/image/cats/about_us.jpg);
+    color: white;
+    opacity: 0;
+    transition: .5s;
+}
+.card .image:hover .bg{
+    opacity: 0.75;
+}
