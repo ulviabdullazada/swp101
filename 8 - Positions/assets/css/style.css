@@ -1,0 +1,52 @@
+
+nav{
+    background-color: darkcyan;
+    text-align: center;
+    padding: 25px;
+    color: red;
+    width: 100%;
+    /* position: fixed; */
+    /* top: 15px; */
+    position: sticky;
+    top: 5px;
+}
+.bg{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/1280px-Facebook_New_Logo_%282015%29.svg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.reset-scroll{
+    width: 40px;
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.area{
+    height: 500vh;
+}
+.item{
+    background-color: darkcyan;
+    height: 100%;
+}
+.item p{
+    font-size: 40px;
+}
+.item .badge{
+    position: absolute;
+    width: auto;
+    padding: 10px;
+    border-radius: 7.5px;
+    color: white;
+    background-color: darkcyan;
+    top: 15px;
+    right: 10px;
+}
+.pos-rel{
+    position: relative;
+}
